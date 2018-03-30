@@ -29,9 +29,9 @@
     <meta name="twitter:site" content="@beausimensen" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
-    <link href="assets/css/style.css" rel="stylesheet" media="screen">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <script src="assets/js/modernizr.min.js"></script>
+    <link href="https://beau.io/assets/css/style.css?assets_version=2" rel="stylesheet" media="screen">
+    <link href="https://beau.io/components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://beau.io/assets/js/modernizr.min.js"></script>
     <meta name="google-site-verification" content="MCUQEY5GBSZE6aFP2NnDuWbpDuI7j_7KpxHujmKsiFs" />
 </head>
 <body class="page-home">
@@ -261,10 +261,10 @@
     </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://beau.io/components/jquery/jquery.min.js"><\/script>')</script>
+    <script src="https://beau.io/components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://beau.io/assets/js/jquery.easypiechart.min.js"></script>
+    <script src="https://beau.io/assets/js/waypoints.min.js"></script>
     <script>
     $(function () {
         Modernizr.addTest('ios', function(){
