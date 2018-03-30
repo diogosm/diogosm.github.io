@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-                        Beau Simensen &middot; Software Architect
+                        Diogo Soares &middot;
             </title>            <meta name="description" content="A proponent of framework agnostic code with over 15 years of polyglot software experience. Unglue all the things!">
                 <meta name="keywords" content="personal name, personal brand, interviewing, blogging, reach, resume, cv, hosting, personal site, family website">
-            <meta property="og:title" content="Beau Simensen &middot; Software Architect"/>
+            <meta property="og:title" content="Diogo Soares &middot;"/>
 
     <meta property="og:description" content="A proponent of framework agnostic code with over 15 years of polyglot software experience. Unglue all the things!"/>
 
@@ -23,14 +23,14 @@
     
             <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image:src" content="http://beau.io/assets/images/beau-seattle-large.jpg">
-        <meta name="twitter:creator" content="@beausimensen" />
-        <meta name="twitter:title" content="Beau Simensen &middot; Software Architect" />
+        <meta name="twitter:creator" content="@diogosm" />
+        <meta name="twitter:title" content="Diogo Soares &middot;" />
     <meta name="twitter:description" content="A proponent of framework agnostic code with over 15 years of polyglot software experience. Unglue all the things!" />
-    <meta name="twitter:site" content="@beausimensen" />
+    <meta name="twitter:site" content="@diogosm" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <script src="assets/js/modernizr.min.js"></script>
     <meta name="google-site-verification" content="MCUQEY5GBSZE6aFP2NnDuWbpDuI7j_7KpxHujmKsiFs" />
 </head>
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="https://beau.io/" data-target="#welcome" class="navbar-brand">Diogo Soares</a>
+                <a href="https://diogosm.github.io/" data-target="#welcome" class="navbar-brand">Diogo Soares</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" id="main-menu">
@@ -60,11 +60,11 @@
             <h1>Diogo Soares</h1>
             <p>IT Analyst <br/>&<br/> PhD Student at Federal University of Amazonas</p>
         </header>
-        <!--<ul class="social-media">
+        <ul class="social-media">
             <li><a href="https://twitter.com/beausimensen"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://plus.google.com/+BeauSimensen"><i class="fa fa-google-plus"></i></a></li>
             <li><a href="https://www.linkedin.com/in/simensen"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/simensen"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://github.com/diogosm"><i class="fa fa-github"></i></a></li>
             <li><a href="https://www.facebook.com/simensen"><i class="fa fa-facebook"></i></a></li>
         </ul>
         <ul class="blogs">
@@ -72,7 +72,7 @@
             <li><a href="http://ddd.io">ddd.io</a></li>
             <li><a href="http://srcmvn.com">srcmvn.com</a></li>
             <li><a href="http://dflydev.com">dflydev.com</a></li>
-        </ul>-->
+        </ul>
         <a class="primary" href="mailto:troll@mail">Contact Me</a>
     </div>
 </section>
@@ -245,16 +245,10 @@
         <div class="container">
             <div class="copyright">
                 <div class="col-md-3">
-                    &copy; 2018 beau simensen<br>
+                    &copy; 2018 dsm[A] ~ ozh<br>
                 </div>
                 <div class="col-md-3">
-                    <a href="mailto:beau@beau.io">beau@beau.io</a><br>
-                </div>
-                <div class="col-md-3">
-                    <a href="http://dflydev.com/projects/sculpin">created by dflydev</a>
-                </div>
-                <div class="col-md-3">
-                    <a href="https://sculpin.io">powered by sculpin</a>
+                    <a href="mailto:soares.diogom@gmail.com">soares.diogom@gmail.com</a><br>
                 </div>
             </div>
         </div>
