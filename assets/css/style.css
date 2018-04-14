@@ -268,7 +268,7 @@ section>header h1:after {
 	margin: .5em auto;
 }
 section>header p {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: .2em;
 	text-align: center;
 }
@@ -516,3 +516,23 @@ img.joinedin {
 	}
 }
 
+.label-doi {
+    background-color: #4e54d7;
+}
+
+.label-nolink {
+    background-color: #d24237;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 35%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: .25em;
+}
