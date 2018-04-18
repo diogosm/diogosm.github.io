@@ -536,3 +536,7 @@ img.joinedin {
     vertical-align: middle;
     border-radius: .25em;
 }
+
+#cont{
+	display: inline;
+}
