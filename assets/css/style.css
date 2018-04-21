@@ -548,7 +548,7 @@ img.joinedin {
 }
 #education h2 {
  color:#374054;
- margin-bottom:50px
+ margin-bottom:50px;
 }
 
 .education-block {
@@ -562,27 +562,27 @@ img.joinedin {
  font-weight:500;
  float:left;
  margin:0;
- color:#374054
+ color:#374054;
 }
 .education-block span {
- color:#74808a;
- float:right
+ color:#74808a !important;
+ float:right !important;
 }
 .education-block h4 {
- color:#74808a;
- clear:both;
- font-weight:500;
- margin:0 0 15px 0
+ color:#74808a !important;
+ clear:both !important;
+ font-weight:500 !important;
+ margin:0 0 15px 0 !important;
 }
 .education-block p,.education-block ul {
  margin:0;
  color:#74808a;
- font-size:0.9em
+ font-size:0.9em;
 }
 .education-block ul {
- padding:0 0 0 15px
+ padding:0 0 0 15px;
 }
 
 .education-block h3,.education-block span {
-  float:none
+  float:none !important;
 }
