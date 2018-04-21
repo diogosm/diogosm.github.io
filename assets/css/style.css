@@ -544,7 +544,9 @@ img.joinedin {
 /** education struct */
 
 #education {
- /*! padding:50px 15px 20px 15px; *//*! border-bottom:1px solid #dcd9d9; *//*! text-align:center */
+ padding:50px 15px 20px 15px; 
+ border-bottom:1px solid #dcd9d9;
+ text-align:center;
 }
 #education h2 {
  color:#374054;
@@ -577,6 +579,7 @@ img.joinedin {
  font-weight:500 !important;
  margin:0 0 15px 0 !important;
  display: block !important;
+ font-family: 'Lato', sans-serif !important;
 }
 .education-block p,.education-block ul {
  margin:0;
