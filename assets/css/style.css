@@ -226,7 +226,7 @@ section:not(#welcome):nth-of-type(2n+1) {
 
 /*section:not(#welcome) > .container:last-of-type*/
 section > .container:last-of-type {
-	padding-bottom: 15em;
+	/*padding-bottom: 15em;*/
 }
 
 .navbar-brand {
@@ -241,7 +241,7 @@ html.ios-iphone section:not(#welcome) {
 */
 
 section>header {
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
 section>header .header-container {
 	margin-top: 4em;
@@ -626,7 +626,6 @@ img.joinedin {
 #experience {
  padding:50px 15px;
  text-align:center;
- border-bottom:1px solid #dcd9d9
 }
 #experience h2 {
  color:#374054
@@ -679,7 +678,7 @@ img.joinedin {
 }
 .vtimeline-content {
  margin-left:350px;
- background:#fff;
+ background:#fbfbfb;
  border:1px solid #e6e6e6;
  padding:15px;
  border-radius:3px;
@@ -688,8 +687,8 @@ img.joinedin {
 .vtimeline-content h3 {
  font-size:1.5em;
  font-weight:300;
- color:#374054;
- display:inline-block;
+ color:#005690;
+ display:block;
  margin:0
 }
 .vtimeline-content h4 {
