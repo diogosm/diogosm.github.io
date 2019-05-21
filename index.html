@@ -27,16 +27,23 @@
         <meta name="twitter:title" content="Diogo Soares &middot;" />
     <meta name="twitter:description" content="PhD student at Federal University of Amazonas and I'm leading my research on computer networks, device to device communication and social networks." />
     <meta name="twitter:site" content="@diogosm" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
     <script src="assets/js/modernizr.min.js"></script>
-    <meta name="google-site-verification" content="MCUQEY5GBSZE6aFP2NnDuWbpDuI7j_7KpxHujmKsiFs" />
+    <!--
+		@TODO change google site verification value
+		<meta name="google-site-verification" content="" />
+	-->
 </head>
 <body class="page-home">
     <div id="background"></div>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	
+	<!--
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,13 +54,116 @@
                 </button>
                 <a href="https://diogosm.github.io/" data-target="#welcome" class="navbar-brand">Diogo Soares</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" style="height: 1px;">
                 <ul class="nav navbar-nav" id="main-menu">
 			<li><a href="publications">Publications</a></li>
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
         </div>
     </div>
+	-->
+	
+	<div class="page-wrapper chiller-theme toggled">
+		<a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+			<i class="fas fa-bars"></i>
+		</a>
+		<nav id="sidebar" class="sidebar-wrapper">
+		<div class="sidebar-content">
+		  <div class="sidebar-brand">
+			<a href="#">Menu</a>
+			<div id="close-sidebar">
+			  <i class="fas fa-times"></i>
+			</div>
+		  </div>
+		  <div class="sidebar-header">
+			<div class="user-pic">
+			  <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
+				alt="User picture">
+			</div>
+			<div class="user-info">
+			  <span class="user-name">Jhon
+				<strong>Smith</strong>
+			  </span>
+			  <span class="user-role">Administrator</span>
+			  <span class="user-status">
+				<i class="fa fa-circle"></i>
+				<span>Online</span>
+			  </span>
+			</div>
+		  </div>
+		  <!-- sidebar-search  -->
+		  <div class="sidebar-menu">
+			<ul>
+			  <li class="header-menu">
+				<span>Páginas</span>
+			  </li>
+			  <li>
+				<a href="#">
+				  <i class="fa fa-home"></i>
+				  <span>Página Inicial</span>
+				  <!--
+				  <span class="badge badge-pill badge-primary">Beta</span>
+				  -->
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				  <i class="fa fa-newspaper"></i>
+				  <span>Publications</span>
+				  <!--
+				  <span class="badge badge-pill badge-primary">Beta</span>
+				  -->
+				</a>
+			  </li>
+			  <!--
+			  <li class="sidebar-dropdown">
+				<div class="sidebar-submenu">
+				  <ul>
+					<li>
+					  <a href="#">Dashboard 1
+						<span class="badge badge-pill badge-success">Pro</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">Dashboard 2</a>
+					</li>
+					<li>
+					  <a href="#">Dashboard 3</a>
+					</li>
+				  </ul>
+				</div>
+			  </li>
+			  -->
+			  <!--
+			  <li class="header-menu">
+				<span>Extra</span>
+			  </li>
+			  <li>
+				<a href="#">
+				  <i class="fa fa-book"></i>
+				  <span>Documentation</span>
+				  <span class="badge badge-pill badge-primary">Beta</span>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				  <i class="fa fa-calendar"></i>
+				  <span>Calendar</span>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				  <i class="fa fa-folder"></i>
+				  <span>Examples</span>
+				</a>
+			  </li>
+			  -->
+			</ul>
+		  </div>
+		  <!-- sidebar-menu  -->
+		</div>
+		</nav>
+	</div>
 
     <section id="welcome">
     <div class="welcome-container">
@@ -400,11 +510,12 @@
         </div>
     </footer>
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.easypiechart.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
+	<script type="text/javascript" src="assets/js/menu.js"></script>
     <script>
     $(function () {
         Modernizr.addTest('ios', function(){
