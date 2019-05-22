@@ -1003,7 +1003,7 @@ nav{display:contents;}
 }
 
 .sidebar-wrapper .sidebar-header .user-info {
-  float: left;
+  float: none;
 }
 
 .sidebar-wrapper .sidebar-header .user-info > span {
