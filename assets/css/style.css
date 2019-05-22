@@ -214,7 +214,7 @@ a.continue {
 
 section:not(#welcome) {
 	min-height: 85%;
-	position: relative;
+	/*position: relative;*/
 }
 
 section:not(#welcome):nth-of-type(2n) {
@@ -1304,4 +1304,9 @@ nav{display:contents;}
 
 .chiller-theme .sidebar-footer>a:last-child {
     border-right: none;
+}
+
+/*----------------------- Fixando navbar branco ------------------------*/
+.navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 1 !important;
 }
