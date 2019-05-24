@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
     <script src="assets/js/modernizr.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body class="page-home">
     <div id="background"></div>
@@ -161,8 +162,41 @@
         </header>
         
         <div class="container">
+        
+            <!-- addding some plots -->
+            <div id="graficoPublicacoes" style="margin: auto;max-width:600px; max-height:300px; width: 50%;"><!-- Plotly chart will be drawn inside this DIV --></div>
+            
+            <!-- 
+                Template de publicação
+                @do: Atualizar o input hidden de year
+            -->
+            <div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">
+                <input type="hidden" id="year" name="year" value="2019">
+				<div>
+					<header>
+						<h2>
+		                    <div id="cont">0</div>. FSF: Applying Machine Learning Techniques to Data Forwarding in Socially Selfish Opportunistic Networks &nbsp;<a href="http://link.springer.com/10.1007/978-3-030-14973-4_2" style="text-decoration:none;"><span class="labelname label-doi">Journal Paper</span></a>
+			            </h2>
+						<h3>at Sensors</h3></br>
+						<h4>on May, 2019.</h4>
+					</header>
+					<div class="description">
+		        		<p>
+		        		    Souza, Camilo; Mota, Edjair; <span class="labeldiogo label-doi">Soares, Diogo</span>; Manzoni, Pietro; Cano, Juan-Carlos; Calafate, Carlos T. & Hernandez-Orallo, Enrique.
+			            </p>
+					</div>
+					<div class="tags">
+			            <span class="label label-default">Opportunistic networks</span>
+			            <span class="label label-default">Machine learning</span>
+			            <span class="label label-default">Friendship</span>
+			            <span class="label label-default">Selfishness</span>
+			            <span class="label label-default">Routing</span>
+				    </div>
+				</div>
+			</div>	
 	   
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">
+                <input type="hidden" id="year" name="year" value="2019">
 				<div>
 					<header>
 						<h2>
@@ -186,7 +220,8 @@
 			</div>	
 
 
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">
+    			<input type="hidden" id="year" name="year" value="2019">
 				<div>
 					<header>
 						<h2>
@@ -209,7 +244,8 @@
 				</div>
 			</div>	
 
-        		<div class="talk clearfix" style="margin-bottom: 3em;">				
+        	<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+        	    <input type="hidden" id="year" name="year" value="2018">
 				<div>
 					<header>
 						<h2>
@@ -230,7 +266,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">
+			    <input type="hidden" id="year" name="year" value="2018">
 				<div>
 					<header>
 						<h2>
@@ -251,7 +288,8 @@
 				</div>
 			</div>			
 	    
-	    		<div class="talk clearfix" style="margin-bottom: 3em;">				
+	    	<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+	    	    <input type="hidden" id="year" name="year" value="2017">
 				<div>
 					<header>
 						<h2>
@@ -273,7 +311,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2017">
 				<div>
 					<header>
 						<h2>
@@ -294,7 +333,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2016">
 				<div>
 					<header>
 						<h2>
@@ -317,7 +357,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2016">
 				<div>
 					<header>
 						<h2>
@@ -338,7 +379,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2016">
 				<div>
 					<header>
 						<h2>
@@ -359,7 +401,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2014">
 				<div>
 					<header>
 						<h2>
@@ -381,7 +424,8 @@
 				</div>
 			</div>
 			
-			<div class="talk clearfix" style="margin-bottom: 3em;">				
+			<div id="publicacao" class="talk clearfix" style="margin-bottom: 3em;">				
+			    <input type="hidden" id="year" name="year" value="2013">
 				<div>
 					<header>
 						<h2>
