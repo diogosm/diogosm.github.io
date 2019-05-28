@@ -69,5 +69,5 @@ $(document).ready(function() {
       }
     };
 
-    Plotly.newPlot('graficoPublicacoes', data, layout, {displayModeBar: false});
+    Plotly.newPlot('graficoPublicacoes', data, layout, {displayModeBar: false, responsive: true});
 });
