@@ -50,7 +50,6 @@ $(document).ready(function() {
 
     var layout = {
       title: titulo,
-      width: 500,
       xaxis: {tickfont: {
           size: 14, 
           color: 'rgb(107, 107, 107)'
@@ -70,5 +69,5 @@ $(document).ready(function() {
       }
     };
 
-    Plotly.newPlot('graficoPublicacoes', data, layout, {displayModeBar: false, responsive: true});
+    Plotly.newPlot('graficoPublicacoes', data, layout, {responsive: true, displayModeBar: false});
 });
