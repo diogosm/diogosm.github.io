@@ -1310,3 +1310,196 @@ nav{display:contents;}
 .navbar-fixed-top, .navbar-fixed-bottom {
     z-index: 1 !important;
 }
+
+/*----------------------- Skill bar ------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+
+.skills{
+    width:inherit;
+    position:relative;
+    float:left;
+}
+
+.skills ul{
+    padding-top:30px;
+    list-style-type: none;
+}
+
+.skills ul li{
+    margin-bottom:50px; 
+    background:#dedede; 
+    height:6px;
+}
+
+.skills ul li em{
+    position:relative; 
+    top:-30px;
+}
+
+.skills ul li span{
+    height: inherit;
+    background-color: #94c245;
+    background: linear-gradient(90deg, #76b82a, #aecd60);
+    position:absolute;
+}
+
+/*-------------------- languages skills ------------------*/
+.lang-groovy { 
+    width:90%;  
+    animation:lang-groovy 2s ease-out;
+}
+@keyframes lang-groovy { 
+    0%  { width:0px;} 
+    100%{ width:90%;}  
+}
+
+.lang-cpp { 
+    width:90%;  
+    animation:lang-cpp 2s ease-out;
+}
+@keyframes lang-cpp { 
+    0%  { width:0px;} 
+    100%{ width:90%;}  
+}
+
+.lang-sql { 
+    width:90%;  
+    animation:lang-sql 2s ease-out;
+}
+@keyframes lang-sql { 
+    0%  { width:0px;} 
+    100%{ width:90%;}  
+}
+
+.lang-r { 
+    width:80%;  
+    animation:lang-r 2s ease-out;
+}
+@keyframes lang-r { 
+    0%  { width:0px;} 
+    100%{ width:80%;}  
+}
+
+.lang-python { 
+    width:70%;  
+    animation:lang-python 2s ease-out;
+}
+@keyframes lang-python { 
+    0%  { width:0px;} 
+    100%{ width:70%;}  
+}
+
+.lang-java { 
+    width:70%;  
+    animation:lang-java 2s ease-out;
+}
+@keyframes lang-java { 
+    0%  { width:0px;} 
+    100%{ width:70%;}  
+}
+
+.lang-bash { 
+    width:80%;  
+    animation:lang-bash 2s ease-out;
+}
+@keyframes lang-bash { 
+    0%  { width:0px;} 
+    100%{ width:80%;}  
+}
+
+.lang-js { 
+    width:60%;  
+    animation:lang-js 2s ease-out;
+}
+@keyframes lang-js { 
+    0%  { width:0px;} 
+    100%{ width:60%;}  
+}
+
+.lang-jquery { 
+    width:50%;  
+    animation:lang-jquery 2s ease-out;
+}
+@keyframes lang-jquery { 
+    0%  { width:0px;} 
+    100%{ width:50%;}  
+}
+
+.lang-html { 
+    width:50%;  
+    animation:lang-html 2s ease-out;
+}
+@keyframes lang-html { 
+    0%  { width:0px;} 
+    100%{ width:50%;}  
+}
+
+.lang-css3 { 
+    width:30%;  
+    animation:lang-css3 2s ease-out;
+}
+@keyframes lang-css3 { 
+    0%  { width:0px;} 
+    100%{ width:30%;}  
+}
+
+/*----------------- tecnologies --------------------*/
+.tec-linux { 
+    width:90%;  
+    animation:tec-linux 2s ease-out;
+}
+@keyframes tec-linux { 
+    0%  { width:0px;} 
+    100%{ width:90%;}  
+}
+
+.tec-tomcat { 
+    width:90%;  
+    animation:tec-tomcat 2s ease-out;
+}
+@keyframes tec-tomcat { 
+    0%  { width:0px;} 
+    100%{ width:90%;}  
+}
+
+.tec-docker { 
+    width:80%;  
+    animation:tec-docker 2s ease-out;
+}
+@keyframes tec-docker { 
+    0%  { width:0px;} 
+    100%{ width:80%;}  
+}
+
+.tec-postgres { 
+    width:80%;  
+    animation:tec-postgres 2s ease-out;
+}
+@keyframes tec-postgres { 
+    0%  { width:0px;} 
+    100%{ width:80%;}  
+}
+
+.tec-oracle { 
+    width:50%;  
+    animation:tec-oracle 2s ease-out;
+}
+@keyframes tec-oracle { 
+    0%  { width:0px;} 
+    100%{ width:50%;}  
+}
+
+.tec-rasp { 
+    width:50%;  
+    animation:tec-rasp 2s ease-out;
+}
+@keyframes tec-rasp { 
+    0%  { width:0px;} 
+    100%{ width:50%;}  
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
