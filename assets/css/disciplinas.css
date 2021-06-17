@@ -1,0 +1,74 @@
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    border: solid #2263ac;
+    box-sizing: border-box;
+}
+
+.card-header {
+    padding: 0 !important;
+}
+
+.card-body {
+    background: rgba(0, 105, 255, 0.2);
+}
+
+.list-group-item {
+    background: #0069ff !important;
+    color: #ddd !important;
+}
+
+.list-group-item:last-child {
+    color: #ddd !important;
+}
+
+.list-group-item:hover {
+    color: #fff !important;
+}
+
+.it {
+    padding-left: 1ch !important;
+}
+
+.it::marker{
+    content: "=>" !important;
+    color: #0e6fc9 !important;
+}
+
+.card-body ul {
+    font: 15px 'trebuchet MS', 'lucida sans';
+}
+
+.it a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #FFF;
+    color: #444;
+    text-decoration: none;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em;
+}  
+
+.it a:before {
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    color: #FFF;
+}
